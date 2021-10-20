@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SMG PARKING</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <display-name>AltaEstacionamiento</display-name>
+    <servlet-name>AltaEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.AltaEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaEstacionamiento</servlet-name>
+    <url-pattern>/servlets/AltaEstacionamiento</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaEstadoEstacionamiento</display-name>
+    <servlet-name>AltaEstadoEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.AltaEstadoEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaEstadoEstacionamiento</servlet-name>
+    <url-pattern>/servlets/AltaEstadoEstacionamiento</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaEstadoTicket</display-name>
+    <servlet-name>AltaEstadoTicket</servlet-name>
+    <servlet-class>main.java.servlets.AltaEstadoTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaEstadoTicket</servlet-name>
+    <url-pattern>/servlets/AltaEstadoTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaMedico</display-name>
+    <servlet-name>AltaMedico</servlet-name>
+    <servlet-class>main.java.servlets.AltaMedico</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaMedico</servlet-name>
+    <url-pattern>/servlets/AltaMedico</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaPerfil</display-name>
+    <servlet-name>AltaPerfil</servlet-name>
+    <servlet-class>main.java.servlets.AltaPerfil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaPerfil</servlet-name>
+    <url-pattern>/servlets/AltaPerfil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaSanatorio</display-name>
+    <servlet-name>AltaSanatorio</servlet-name>
+    <servlet-class>main.java.servlets.AltaSanatorio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaSanatorio</servlet-name>
+    <url-pattern>/servlets/AltaSanatorio</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaTicketAutorizado</display-name>
+    <servlet-name>AltaTicketAutorizado</servlet-name>
+    <servlet-class>main.java.servlets.AltaTicketAutorizado</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaTicketAutorizado</servlet-name>
+    <url-pattern>/servlets/AltaTicketAutorizado</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaTicketMedico</display-name>
+    <servlet-name>AltaTicketMedico</servlet-name>
+    <servlet-class>main.java.servlets.AltaTicketMedico</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaTicketMedico</servlet-name>
+    <url-pattern>/servlets/AltaTicketMedico</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>AltaTicketPaciente</display-name>
+    <servlet-name>AltaTicketPaciente</servlet-name>
+    <servlet-class>main.java.servlets.AltaTicketPaciente</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaTicketPaciente</servlet-name>
+    <url-pattern>/servlets/AltaTicketPaciente</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>Busqueda</display-name>
+    <servlet-name>Busqueda</servlet-name>
+    <servlet-class>main.java.servlets.Busqueda</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Busqueda</servlet-name>
+    <url-pattern>/servlets/Busqueda</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>CheckEstacionamiento</display-name>
+    <servlet-name>CheckEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.CheckEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckEstacionamiento</servlet-name>
+    <url-pattern>/servlets/CheckEstacionamiento</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EditarEstacionamiento</display-name>
+    <servlet-name>EditarEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.EditarEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarEstacionamiento</servlet-name>
+    <url-pattern>/servlets/EditarEstacionamiento</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EditarEstadoEstacionamiento</display-name>
+    <servlet-name>EditarEstadoEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.EditarEstadoEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarEstadoEstacionamiento</servlet-name>
+    <url-pattern>/servlets/EditarEstadoEstacionamiento</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <display-name>EditarEstadoTicket</display-name>
+    <servlet-name>EditarEstadoTicket</servlet-name>
+    <servlet-class>main.java.servlets.EditarEstadoTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarEstadoTicket</servlet-name>
+    <url-pattern>/servlets/EditarEstadoTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EditarPerfil</display-name>
+    <servlet-name>EditarPerfil</servlet-name>
+    <servlet-class>main.java.servlets.EditarPerfil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarPerfil</servlet-name>
+    <url-pattern>/servlets/EditarPerfil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EditarSanatorio</display-name>
+    <servlet-name>EditarSanatorio</servlet-name>
+    <servlet-class>main.java.servlets.EditarSanatorio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarSanatorio</servlet-name>
+    <url-pattern>/servlets/EditarSanatorio</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EditarTicket</display-name>
+    <servlet-name>EditarTicket</servlet-name>
+    <servlet-class>main.java.servlets.EditarTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarTicket</servlet-name>
+    <url-pattern>/servlets/EditarTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarEstacionamiento</display-name>
+    <servlet-name>EliminarEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.EliminarEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarEstacionamiento</servlet-name>
+    <url-pattern>/servlets/EliminarEstacionamiento</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarEstadoEstacionamiento</display-name>
+    <servlet-name>EliminarEstadoEstacionamiento</servlet-name>
+    <servlet-class>main.java.servlets.EliminarEstadoEstacionamiento</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarEstadoEstacionamiento</servlet-name>
+    <url-pattern>/servlets/EliminarEstadoEstacionamiento</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarEstadoTicket</display-name>
+    <servlet-name>EliminarEstadoTicket</servlet-name>
+    <servlet-class>main.java.servlets.EliminarEstadoTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarEstadoTicket</servlet-name>
+    <url-pattern>/servlets/EliminarEstadoTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarPerfil</display-name>
+    <servlet-name>EliminarPerfil</servlet-name>
+    <servlet-class>main.java.servlets.EliminarPerfil</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarPerfil</servlet-name>
+    <url-pattern>/servlets/EliminarPerfil</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarSanatorio</display-name>
+    <servlet-name>EliminarSanatorio</servlet-name>
+    <servlet-class>main.java.servlets.EliminarSanatorio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarSanatorio</servlet-name>
+    <url-pattern>/servlets/EliminarSanatorio</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarTicket</display-name>
+    <servlet-name>EliminarTicket</servlet-name>
+    <servlet-class>main.java.servlets.EliminarTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarTicket</servlet-name>
+    <url-pattern>/servlets/EliminarTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetEstacionamientos</display-name>
+    <servlet-name>GetEstacionamientos</servlet-name>
+    <servlet-class>main.java.servlets.GetEstacionamientos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetEstacionamientos</servlet-name>
+    <url-pattern>/servlets/GetEstacionamientos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetEstacionamientosSanatorio</display-name>
+    <servlet-name>GetEstacionamientosSanatorio</servlet-name>
+    <servlet-class>main.java.servlets.GetEstacionamientosSanatorio</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetEstacionamientosSanatorio</servlet-name>
+    <url-pattern>/servlets/GetEstacionamientosSanatorio</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetEstacionamientosSanatorioCombo</display-name>
+    <servlet-name>GetEstacionamientosSanatorioCombo</servlet-name>
+    <servlet-class>main.java.servlets.GetEstacionamientosSanatorioCombo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetEstacionamientosSanatorioCombo</servlet-name>
+    <url-pattern>/servlets/GetEstacionamientosSanatorioCombo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetEstadosEstacionamientos</display-name>
+    <servlet-name>GetEstadosEstacionamientos</servlet-name>
+    <servlet-class>main.java.servlets.GetEstadosEstacionamientos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetEstadosEstacionamientos</servlet-name>
+    <url-pattern>/servlets/GetEstadosEstacionamientos</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetEstadosTickets</display-name>
+    <servlet-name>GetEstadosTickets</servlet-name>
+    <servlet-class>main.java.servlets.GetEstadosTickets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetEstadosTickets</servlet-name>
+    <url-pattern>/servlets/GetEstadosTickets</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetMedicos</display-name>
+    <servlet-name>GetMedicos</servlet-name>
+    <servlet-class>main.java.servlets.GetMedicos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetMedicos</servlet-name>
+    <url-pattern>/servlets/GetMedicos</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <display-name>GetMedicosFiltrados</display-name>
+    <servlet-name>GetMedicosFiltrados</servlet-name>
+    <servlet-class>main.java.servlets.GetMedicosFiltrados</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetMedicosFiltrados</servlet-name>
+    <url-pattern>/servlets/GetMedicosFiltrados</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetMedicosParcial</display-name>
+    <servlet-name>GetMedicosParcial</servlet-name>
+    <servlet-class>main.java.servlets.GetMedicosParcial</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetMedicosParcial</servlet-name>
+    <url-pattern>/servlets/GetMedicosParcial</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+    <display-name>GetPerfiles</display-name>
+    <servlet-name>GetPerfiles</servlet-name>
+    <servlet-class>main.java.servlets.GetPerfiles</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetPerfiles</servlet-name>
+    <url-pattern>/servlets/GetPerfiles</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetSanatorios</display-name>
+    <servlet-name>GetSanatorios</servlet-name>
+    <servlet-class>main.java.servlets.GetSanatorios</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSanatorios</servlet-name>
+    <url-pattern>/servlets/GetSanatorios</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetSanatoriosUsuario</display-name>
+    <servlet-name>GetSanatoriosUsuario</servlet-name>
+    <servlet-class>main.java.servlets.GetSanatoriosUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSanatoriosUsuario</servlet-name>
+    <url-pattern>/servlets/GetSanatoriosUsuario</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetTickets</display-name>
+    <servlet-name>GetTickets</servlet-name>
+    <servlet-class>main.java.servlets.GetTickets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTickets</servlet-name>
+    <url-pattern>/servlets/GetTickets</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetTicketsReportes</display-name>
+    <servlet-name>GetTicketsReportes</servlet-name>
+    <servlet-class>main.java.servlets.GetTicketsReportes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTicketsReportes</servlet-name>
+    <url-pattern>/servlets/GetTicketsReportes</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetTicketsFiltrados</display-name>
+    <servlet-name>GetTicketsFiltrados</servlet-name>
+    <servlet-class>main.java.servlets.GetTicketsFiltrados</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTicketsFiltrados</servlet-name>
+    <url-pattern>/servlets/GetTicketsFiltrados</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetTiposTicket</display-name>
+    <servlet-name>GetTiposTicket</servlet-name>
+    <servlet-class>main.java.servlets.GetTiposTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTiposTicket</servlet-name>
+    <url-pattern>/servlets/GetTiposTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetTiposVehiculo</display-name>
+    <servlet-name>GetTiposVehiculo</servlet-name>
+    <servlet-class>main.java.servlets.GetTiposVehiculo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTiposVehiculo</servlet-name>
+    <url-pattern>/servlets/GetTiposVehiculo</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>main.java.servlets.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlets/Login</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <display-name>CerrarTicket</display-name>
+    <servlet-name>CerrarTicket</servlet-name>
+    <servlet-class>main.java.servlets.CerrarTicket</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CerrarTicket</servlet-name>
+    <url-pattern>/servlets/CerrarTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetUsuarios</display-name>
+    <servlet-name>GetUsuarios</servlet-name>
+    <servlet-class>main.java.servlets.GetUsuarios</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetUsuarios</servlet-name>
+    <url-pattern>/servlets/GetUsuarios</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <display-name>AltaUsuario</display-name>
+    <servlet-name>AltaUsuario</servlet-name>
+    <servlet-class>main.java.servlets.AltaUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AltaUsuario</servlet-name>
+    <url-pattern>/servlets/AltaUsuario</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarUsuario</display-name>
+    <servlet-name>EliminarUsuario</servlet-name>
+    <servlet-class>main.java.servlets.EliminarUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarUsuario</servlet-name>
+    <url-pattern>/servlets/EliminarUsuario</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetAutorizaciones</display-name>
+    <servlet-name>GetAutorizaciones</servlet-name>
+    <servlet-class>main.java.servlets.GetAutorizaciones</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAutorizaciones</servlet-name>
+    <url-pattern>/servlets/GetAutorizaciones</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <display-name>Autorizar</display-name>
+    <servlet-name>Autorizar</servlet-name>
+    <servlet-class>main.java.servlets.Autorizar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Autorizar</servlet-name>
+    <url-pattern>/servlets/Autorizar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EliminarMedico</display-name>
+    <servlet-name>EliminarMedico</servlet-name>
+    <servlet-class>main.java.servlets.EliminarMedico</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EliminarMedico</servlet-name>
+    <url-pattern>/servlets/EliminarMedico</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>EditarMedico</display-name>
+    <servlet-name>EditarMedico</servlet-name>
+    <servlet-class>main.java.servlets.EditarMedico</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditarMedico</servlet-name>
+    <url-pattern>/servlets/EditarMedico</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetLogs</display-name>
+    <servlet-name>GetLogs</servlet-name>
+    <servlet-class>main.java.servlets.GetLogs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetLogs</servlet-name>
+    <url-pattern>/servlets/GetLogs</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <display-name>GetDatosImpresion</display-name>
+    <servlet-name>GetDatosImpresion</servlet-name>
+    <servlet-class>main.java.servlets.GetDatosImpresion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetDatosImpresion</servlet-name>
+    <url-pattern>/servlets/GetDatosImpresion</url-pattern>
+  </servlet-mapping>
+
+</web-app>
